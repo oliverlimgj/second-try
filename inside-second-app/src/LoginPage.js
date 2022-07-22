@@ -1,4 +1,4 @@
-function LoginPage() {
+function LoginPage() {  
   return (
     <div>
       <div class="form-control">
@@ -28,7 +28,6 @@ function LoginPage() {
         </label>
 
         <button class="btn btn-primary btn-wide">Sign In</button>
-
       </div>
     </div>
   );

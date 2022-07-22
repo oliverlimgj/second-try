@@ -50,7 +50,9 @@ function Register() {
 
   return (
     <section>
-      <div>Register</div>
+      <p ref={errRef} className={errMsg ? 'errmsg' : 'offscreen'} aria-live='assertive'>
+        {errMsg}
+      </p>
     </section>
   );
 }
